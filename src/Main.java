@@ -44,6 +44,8 @@ public class Main {
             orders[Market.getOrdersCount()]
                     = Market.buy("Vanya","Хлеб", 1, buyers, products);
             orders[Market.getOrdersCount()]
+                    = Market.buy("Vanya","Молоко", 1, buyers, products);
+            orders[Market.getOrdersCount()]
                     = Market.buy("Nyurka","Коньяк", 2, buyers, products);
             orders[Market.getOrdersCount()]
                     = Market.buy("Petka","Хлеб", -1,buyers, products);

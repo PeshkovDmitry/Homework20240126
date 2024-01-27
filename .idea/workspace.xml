@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8442a91a-6e4d-4aba-8de0-8eabe8938956" name="Changes" comment="Начальный коммит">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NoBuyerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NoProductException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NotPositiveCountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8442a91a-6e4d-4aba-8de0-8eabe8938956" name="Changes" comment="Сделал все кроме вывода в файл">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Market.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +61,19 @@
       <option name="project" value="LOCAL" />
       <updated>1706363371999</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделал все кроме вывода в файл">
+      <created>1706378222599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378222599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Начальный коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начальный коммит" />
+    <MESSAGE value="Сделал все кроме вывода в файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал все кроме вывода в файл" />
   </component>
 </project>

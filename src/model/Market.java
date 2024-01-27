@@ -4,6 +4,9 @@ import exceptions.NoBuyerException;
 import exceptions.NoProductException;
 import exceptions.NotPositiveCountException;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Market {
 
     private static int ordersCount = 0;
@@ -42,7 +45,11 @@ public class Market {
         }
         ordersCount++;
         Order order = new Order(buyer, product);
-
+        try (FileWriter fileWriter = new FileWriter("Orders.txt",true)) {
+            fileWriter.write(order.toString() + "\r");
+        } catch (IOException e) {
+            System.out.println("Ошибка записи в файл");
+        }
         return order;
     }
 }
